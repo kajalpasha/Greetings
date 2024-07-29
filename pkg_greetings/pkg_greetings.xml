@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" method="upgrade">
+	<name>Greetings Package</name>
+	<author>Nasim Kajal</author>
+	<creationDate>July 2024</creationDate>
+	<packagename>Greetings</packagename>
+	<version>1.0.0</version>
+	<url>mailto:nasimkajal@gmail.com</url>
+	<packager>Nasim Kajal</packager>
+	<packagerurl>>mailto:nasimkajal@gmail.com</packagerurl>
+	<description>Greetings package to combine multiple extensions</description>
+	<files>
+		<file type="component" id="com_greetings">com_greetings.zip</file>
+		<file type="module" id="randomgreeting" client="site">mod_randomgreeting.zip</file>
+	</files>
+</extension>
